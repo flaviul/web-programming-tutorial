@@ -7,29 +7,54 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body style="background-color: #F1F8E0">
 
 <div id="layout" class="x-borders">
-    <header>
+    <header style="background-color: #868A08">
         <a id="logo" href="." title="FastTrackIT">
             <img src="img/logo.png" alt="FastTrackIT" title="FastTrackIT">
         </a>
-        <h1>Welcome to our First Web Site made @ FastTrackIT</h1>
+        <h1 style="color: #61210B">Welcome to our First Web Site made @ FastTrackIT</h1>
     </header>
 
-    <div id="top-menu">
-        <div>
+    <div  id="top-menu" >
+        <div style="background-color: darkslategray">
             <ul>
-                <li><a href="#" title="welcome home">HOME</a></li>
-                <li><a href="#" title="my personal projects">Projects</a></li>
-                <li><a href="#" title="about me">About</a></li>
-                <li><a href="#" title="contact me">Contact</a></li>
+                <li><a href="#" title="welcome home" style="color: #dcdcdc">HOME</a></li>
+                <li><a href="#" title="my personal projects" style="color: #dcdcdc">Projects</a></li>
+                <li><a href="#" title="about me"style="color: #dcdcdc">About</a></li>
+                <li><a href="#" title="contact me"style="color: #dcdcdc">Contact</a></li>
             </ul>
         </div>
     </div>
 
     <div id="content-wrapper">
         <div id="left-bar">
+
+             <div id="picker-widget" class="widget">
+                <div class="header">Picker</div>
+                <div class="content">
+                    <table border="1">
+                        <tr>
+                            <td style="background-color:red"></td>
+                            <td style="background-color:green"></td>
+                            <td style="background-color:yellow"></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:blue"></td>
+                            <td style="background-color:orange"> </td>
+                            <td style="background-color:brown"> </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:chocolate"></td>
+                            <td style="background-color:grey"> </td>
+                            <td style="background-color:aqua"> </td>
+                        </tr>
+                    </table>
+                </div>
+             </div>
+
+
             <div id="news-widget" class="widget collapsed">
                 <div class="header" title="Show/Hide content">News</div>
                 <div class="content">
@@ -49,7 +74,7 @@
                 </div>
             </div>
             
-            <div id="help-widget" class="widget">
+            <div id="help-widget" class="widget collapsed">
                 <div class="header">Help links</div>
                 <div class="content">
                     <p><a href="http://www.cssmatic.com/box-shadow" target="_blank">box-shadow generator</a></p>
@@ -57,7 +82,7 @@
                 </div>
             </div>
             
-            <div id="google-search" class="widget">
+            <div id="google-search" class="widget collapsed">
                 <div class="header">Google Search</div>
                 <div class="content">
                     <form action="http://www.google.com/search" target="_blank">
@@ -73,15 +98,15 @@
         </div>
 
         <div id="content">
-            <div id="breadcrumb">HOME : welcome home</div>
+            <div id="breadcrumb" style="background-color:#B45F04; color: #610B0B">HOME : welcome home</div>
 
-            <h1>Homework</h1>
+            <h1 style="font-family: Blagovest">Homework</h1>
             <p>Write some info about you.</p>
             <p>
                 Make this web site as you wish. Change/Add any <strong>attributes</strong> you have learned in this example.
                 Add/edit <strong>elements</strong> in HTML page as you wish, to create custom components in your page.
             </p>
-            <h2>Exercises</h2>
+            <h2 style="font-family: Blagovest">Exercises</h2>
             <ol>
                 <li>Add new widget</li>
                 <li>Make sure you understand how to find any elements with:
@@ -100,7 +125,7 @@
         <div class="clear"></div>
     </div>
 
-    <footer>
+    <footer style="background-color: darkslategray; color: #dcdcdc">
         <p>&copy; 2015 FastTrackIT. All rights reserved.</p>
     </footer>
 </div>

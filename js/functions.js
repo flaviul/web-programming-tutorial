@@ -26,3 +26,11 @@ for (var i = 0; i < links.length; i++) {
         document.getElementById("breadcrumb").innerHTML = this.innerHTML + " : " + this.title;
     }
 }
+
+
+var color = document.getElementById("picker-widget").getElementsByTagName("td");
+for (var i = 0; i < color.length; i++) {
+    color[i].onclick = function() {
+        document.getElementById("picker-widget").style.color = "blue";
+    }
+}

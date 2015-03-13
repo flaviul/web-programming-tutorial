@@ -171,3 +171,12 @@ footer {
     margin: 5px;
     border: 1px solid gray;
 }
+
+#picker-widget td{
+    border: 1px solid olivedrab;
+    height: 15px;
+    width: 60px;
+}
+#picker-widget .content{
+    text-align: center;
+}
